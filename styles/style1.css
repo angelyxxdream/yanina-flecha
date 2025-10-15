@@ -43,9 +43,44 @@ html, body {
     font-size: 5rem;
 
 }
-h2 {
+.hero-container h2 {
+    color: #1D1128;
+}
+.hero-container h2, .content-container h3, .content-container p,.projects-container h3  {
     font-family: "Text Me One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+.content-container {
+    text-align: center;
+    background-color: #FCFAFD;
+    color: #1C1E26;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(29, 17, 40, 0.2);
+    filter: blur(0.3px);
+}
+.content-container:hover {
+    transform: rotateZ(0.5deg); 
+}
+
+.content-container h3, .projects-container h3 {
+   font-weight: 900;
+}
+.content-container h3, .content-container p {
+    margin-bottom: 1.5rem;
+}
+.projects-container {
+    text-align: center;
+    background-color: #FCFAFD;
+    color: #1C1E26;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(29, 17, 40, 0.2);
+}
+
 
